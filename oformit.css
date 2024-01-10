@@ -1,0 +1,107 @@
+.form{
+    max-width: 550px;
+    margin: 0px auto;
+    color: #141318;
+    padding: 30px 10px 0px 10px;
+}
+.form_body {
+}
+.form__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: #141318;
+}
+
+@media (max-width: 420px){
+    .form__title {
+        font-size: 32px;
+    }
+}
+
+.form__item {
+    margin: 0px 0px 20px 0px;
+}
+.form__labe {
+    font-size: 18px;
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+.form__input {
+    height: 50px;
+    padding: 0px 20px;
+    border-radius:5px;
+    width: 100%;
+    font-size: 18px;
+}
+textarea.form__input{
+    min-height: 120px;
+    resize: vertical;
+    padding: 20px;
+}
+.form_item {
+    padding-bottom: 10px;
+    
+}
+.form__label {
+}
+.select{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0px 20px;
+
+}
+.form__bytoon {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: #2644BC;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.5s ease 0s;
+    border: solid #2644BC;
+    margin: 0 auto;
+    display: block;
+}
+@media (max-width: 488px){
+    .form__bytoon {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        background-color: #2644BC;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: background-color 0.5s ease 0s;
+        border: solid #2644BC;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.form__bytoon:hover{
+    background-color: #112c9b;
+}
+.form__title_1{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    color: #141318d2;
+}
